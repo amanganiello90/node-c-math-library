@@ -1,14 +1,14 @@
 {
   "name": "node-c-math-library",
   "version": "1.0.0",
-  "description": "An example of C lmath ibrary built with node-gyp and used in a node project with ffi",
+  "description": "An example of C math library built with node-gyp and used in a node project with ffi",
   "main": "index.js",
   "keywords": [
     "c++",
     "node-gyp"
   ],
   "files": [
-    "src",
+        "src",
 	"binding.gyp",
 	"index.js",
 	"index.d.ts"
