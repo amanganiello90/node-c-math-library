@@ -1,0 +1,43 @@
+{
+  "name": "node-c-math-library",
+  "version": "1.0.0",
+  "description": "An example of C lmath ibrary built with node-gyp and used in a node project with ffi",
+  "main": "index.js",
+  "keywords": [
+    "c++",
+    "node-gyp"
+  ],
+  "files": [
+    "src",
+	"binding.gyp",
+	"index.js"
+  ],
+  "scripts": {
+    "test": "jest",
+    "postInstall": "node-gyp rebuild"
+  },
+  "gypfile": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanganiello90/node-c-math-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanganiello90/node-c-math-library/issues"
+  },
+  "homepage": "https://github.com/amanganiello90/node-c-math-library#readme",
+  "dependencies": {
+   "ffi": "2.3.0"
+  },
+  "devDependencies":{
+  "jest": "24.1.0"
+  },
+  "jest": {
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|js)$",
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testEnvironment": "node"
+  }
+}
